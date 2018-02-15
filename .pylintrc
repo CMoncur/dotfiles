@@ -84,6 +84,7 @@ disable=print-statement,
         dict-items-not-iterating,
         dict-keys-not-iterating,
         dict-values-not-iterating,
+        C0103, # Allows camel case function names
         C0326, # Allow syntax such as: `ls = [ "hi", "hello" ]`
 
 [REPORTS]
@@ -124,7 +125,7 @@ missing-member-max-choices=1
 
 [VARIABLES]
 additional-builtins=
-allow-global-unused-variables=no
+allow-global-unused-variables=yes
 callbacks=cb_,
           _cb
 dummy-variables-rgx=_+$|(_[a-zA-Z0-9_]*[a-zA-Z0-9]+?$)|dummy|^ignored_|^unused_
