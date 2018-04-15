@@ -2,7 +2,7 @@
 syntax on
 
 " Current color scheme
-colorscheme molokai_dark
+colorscheme deus
 
 " Display Line Numbers
 set number
@@ -15,9 +15,31 @@ call plug#begin('~/.vim/plugged')
 
 Plug 'jelera/vim-javascript-syntax'
 Plug 'scrooloose/nerdtree'
+Plug 'Xuyuanp/nerdtree-git-plugin'
+Plug 'airblade/vim-gitgutter'
+Plug 'vim-airline/vim-airline'
+Plug 'tpope/vim-fugitive'
+Plug 'vim-airline/vim-airline-themes'
+Plug 'vim-syntastic/syntastic'
+Plug 'jiangmiao/auto-pairs'
+Plug 'Yggdroot/indentLine'
+Plug 'ntpeters/vim-better-whitespace'
 
 call plug#end()
 
 " Plugin Settings
 " NerdTree
 let NERDTreeShowHidden=1
+
+" Airline
+let g:airline_solarized_bg='dark'
+
+" Syntastic
+let g:syntastic_python_checkers=['pylint']
+
+" IndentLine
+let g:indentLine_color_term=239
+
+" Vim Better Whitespace
+let g:better_whitespace_enabled=1
+let g:strip_whitespace_on_save=1
