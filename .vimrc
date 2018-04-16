@@ -35,6 +35,7 @@ call plug#end()
 " Plugin Settings
 " NerdTree
 let NERDTreeShowHidden=1
+let NERDTreeIgnore=['\.pyc$', '__pycache__', '\.swp$']
 
 " Airline
 let g:airline_solarized_bg='dark'
