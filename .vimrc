@@ -29,6 +29,8 @@ Plug 'vim-syntastic/syntastic'
 Plug 'jiangmiao/auto-pairs'
 Plug 'Yggdroot/indentLine'
 Plug 'ntpeters/vim-better-whitespace'
+Plug '/usr/local/opt/fzf' " Requires fzf to be installed
+Plug 'junegunn/fzf.vim' " Requires fzf to be installed
 
 call plug#end()
 
