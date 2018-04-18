@@ -11,6 +11,9 @@ syntax on
 " Display Line Numbers
 set number
 
+" Detect file changes and refresh in real time
+set autoread
+
 " Make backspace function like a real backspace
 set backspace=indent,eol,start
 
