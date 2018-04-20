@@ -17,6 +17,9 @@ set autoread
 " Make backspace function like a real backspace
 set backspace=indent,eol,start
 
+" Highlight column at 80 characters
+set colorcolumn=80
+
 " Plugins
 call plug#begin('~/.vim/plugged')
 
