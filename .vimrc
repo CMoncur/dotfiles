@@ -8,6 +8,11 @@ endif
 " Syntax highlighting
 syntax on
 
+" Tabs                                                                                                                      
+set tabstop=4                                                                                                               
+set expandtab                                                                                                               
+set softtabstop=4
+
 " Display Line Numbers
 set number
 
