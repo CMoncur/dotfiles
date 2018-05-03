@@ -64,5 +64,8 @@ let g:indentLine_color_term=239
 let g:better_whitespace_enabled=1
 let g:strip_whitespace_on_save=1
 
+" Haskell Vim
+let g:haskell_indent_disable=1
+
 " Deus Colorscheme
 colors deus
