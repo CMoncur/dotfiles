@@ -30,6 +30,8 @@ call plug#begin('~/.vim/plugged')
 
 Plug 'ajmwagar/vim-deus'
 Plug 'jelera/vim-javascript-syntax'
+Plug 'neovimhaskell/haskell-vim'
+Plug 'elmcast/elm-vim'
 Plug 'scrooloose/nerdtree'
 Plug 'Xuyuanp/nerdtree-git-plugin'
 Plug 'airblade/vim-gitgutter'
