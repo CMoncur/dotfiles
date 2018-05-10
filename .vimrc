@@ -34,7 +34,8 @@ set colorcolumn=80
 call plug#begin('~/.vim/plugged')
 
 Plug 'ajmwagar/vim-deus'
-Plug 'jelera/vim-javascript-syntax'
+Plug 'pangloss/vim-javascript'
+Plug 'mxw/vim-jsx'
 Plug 'neovimhaskell/haskell-vim'
 Plug 'elmcast/elm-vim'
 Plug 'scrooloose/nerdtree'
