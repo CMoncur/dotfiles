@@ -8,8 +8,8 @@ endif
 " Syntax highlighting
 syntax on
 
-" Tabs                                                                                                                      
-set tabstop=4                                                                                                             
+" Tabs
+set tabstop=4
 set softtabstop=4
 set shiftwidth=4
 set expandtab
@@ -51,6 +51,7 @@ Plug 'jiangmiao/auto-pairs'
 Plug 'Yggdroot/indentLine'
 Plug 'ntpeters/vim-better-whitespace'
 Plug 'ctrlpvim/ctrlp.vim'
+Plug 'leafgarland/typescript-vim'
 
 call plug#end()
 
