@@ -67,7 +67,10 @@ let NERDTreeIgnore=['\.pyc$', '__pycache__', '\.swp$']
 let g:airline_solarized_bg='dark'
 
 " Syntastic
+let g:syntastic_aggregate_errors=1
 let g:syntastic_python_checkers=['pylint']
+let g:syntastic_typescript_checkers = ['tslint']
+let g:syntastic_typescript_tslint_args = "--config tslint.json"
 
 " IndentLine
 let g:indentLine_color_term=239
