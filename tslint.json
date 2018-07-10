@@ -1,0 +1,12 @@
+
+{
+  "extends": "tslint-config-airbnb",
+  "rules": {
+    "jsx-no-lambda": false,
+    "jsx-no-multiline-js": false,
+    "max-line-length": [ true, 120 ],
+    "quotemark": [true, "single", "jsx-single"],
+    "ter-arrow-parens": "always",
+    "typedef": [ true, "call-signature", "parameter", "property-declaration" ]
+  }
+}
