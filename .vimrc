@@ -60,6 +60,7 @@ call plug#end()
 
 " Plugin Settings
 " NerdTree
+let NERDTreeShowLineNumbers=1
 let NERDTreeShowHidden=1
 let NERDTreeIgnore=['\.pyc$', '__pycache__', '\.swp$']
 
