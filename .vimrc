@@ -5,6 +5,19 @@ if empty(glob('~/.vim/autoload/plug.vim'))
   autocmd VimEnter * PlugInstall --sync | source $MYVIMRC
 endif
 
+" NOTE: It will be necessary to compile YCM sourcefiles before using...
+" This can be accomplished thusly:
+" First, install cmake
+"
+" `brew install cmake`
+" or
+" `sudo apt-get install cmake`
+"
+" Then, run installation file
+"
+" `cd ~/.vim/plugged/YouCompleteMe`
+" `./install.py`
+
 " Syntax highlighting
 syntax on
 
@@ -55,6 +68,7 @@ Plug 'ntpeters/vim-better-whitespace'
 Plug 'ctrlpvim/ctrlp.vim'
 Plug 'leafgarland/typescript-vim'
 Plug 'ianks/vim-tsx'
+Plug 'Valloric/YouCompleteMe'
 
 call plug#end()
 
