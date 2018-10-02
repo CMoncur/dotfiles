@@ -50,7 +50,7 @@ Plug 'tpope/vim-fugitive'
 Plug 'vim-airline/vim-airline-themes'
 Plug 'vim-syntastic/syntastic'
 Plug 'jiangmiao/auto-pairs'
-Plug 'Yggdroot/indentLine'
+Plug 'nathanaelkane/vim-indent-guides'
 Plug 'ntpeters/vim-better-whitespace'
 Plug 'ctrlpvim/ctrlp.vim'
 Plug 'leafgarland/typescript-vim'
@@ -73,8 +73,9 @@ let g:syntastic_python_checkers=['pylint']
 let g:syntastic_typescript_checkers = ['tslint']
 let g:syntastic_typescript_tslint_args = "--config tslint.json"
 
-" IndentLine
-let g:indentLine_color_term=239
+" Indent Guides
+let g:indent_guides_enable_on_vim_startup=1
+let g:indent_guides_guide_size=1
 
 " Vim Better Whitespace
 let g:better_whitespace_enabled=1
